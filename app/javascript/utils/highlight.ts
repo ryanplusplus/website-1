@@ -6,6 +6,7 @@ import setupBqn from 'highlightjs-bqn'
 import setupZig from 'highlightjs-zig'
 import setupGleam from '@gleam-lang/highlight.js-gleam'
 import setupBallerina from '@ballerina/highlightjs-ballerina'
+import 'highlightjs-redbol'
 
 highlighter.default.registerLanguage('abap', setupABAP)
 highlighter.default.registerLanguage('cobol', setupCobol)
